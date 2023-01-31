@@ -1,0 +1,17 @@
+{
+  "name": "plasmatransfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deposit": "node approveanddeposit.js",
+    "burn": "node burn.js",
+    "confirm": "node confirm-withdraw.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@maticnetwork/maticjs": "^2.0.45",
+    "@truffle/hdwallet-provider": "^1.5.0"
+  }
+}
