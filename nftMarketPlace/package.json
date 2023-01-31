@@ -1,0 +1,35 @@
+{
+    "name": "nft-market-place",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deposit": "node approveanddeposit.js",
+        "burn": "node burn.js",
+        "confirm": "node confirm-withdraw.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@openzeppelin/contracts": "^4.3.2",
+        "@truffle/hdwallet-provider": "^1.5.0",
+        "axios": "^0.21.1",
+        "chai": "^4.3.4",
+        "chai-as-promised": "^7.1.1",
+        "ethers": "^5.4.6",
+        "ipfs-http-client": "^50.1.2",
+        "next": "^11.1.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "truffle": "^5.4.10",
+        "web3": "^1.5.2",
+        "web3modal": "^1.9.4"
+    },
+    "devDependencies": {
+        "autoprefixer": "10.4.13",
+        "eslint": "^7.32.0",
+        "eslint-config-next": "^11.1.2",
+        "postcss": "8.4.5",
+        "tailwindcss": "^2.2.15"
+    }
+}
